@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <style type="text/css">
+      #block {
+          height: 150px;
+          width: 200px;
+      }
+      #error {
+        border: 1px red;
+      }
+    </style>
     <script src="./lib/jquery-2.0.3.js"></script>
     <script src="./popup.js"></script>
   </head>
   <body>
-    <form id="basic">
-      <input type="submit" value="start">
-    </form>
-    <p id='result'></p>
+    <div id="block">
+      <form id="basic">
+        <input type="button" id="start" value="start">
+        <input type="button" id="retrieve" value="retrieve">
+      </form>
+      <p id='result'></p>
+      <p id='error'></p>
+    </div>
   </body>
 </html>
