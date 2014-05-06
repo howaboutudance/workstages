@@ -1,4 +1,4 @@
-var INTERVAL = 25;
+var INTERVAL = 0.25;
 var url='http://0.0.0.0:8080/test/';
 testdate = 1395005507277;
 $(document).ready( function () {
@@ -18,7 +18,7 @@ $(document).ready( function () {
       url: url,
       dataType: 'json',
       success: function(data) {
-        endtime = new Date(data.endTime)
+        endtime = new Date(data.properties.end_time)
        $('#result').text("current stage ends at: "+endtime.toLocaleTimeString());
       }
     });
