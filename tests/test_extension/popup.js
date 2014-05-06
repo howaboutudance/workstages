@@ -1,5 +1,5 @@
 var INTERVAL = 0.25;
-var url='http://0.0.0.0:8080/test/';
+var URL='http://127.1.1.1:8080/test/';
 testdate = 1395005507277;
 $(document).ready( function () {
   $("#start").click(function(ev) {
