@@ -17,7 +17,7 @@
    inkscape:export-filename="/home/crimson/develop/workstages/addon/data/icon-64.png"
    inkscape:export-xdpi="360"
    inkscape:export-ydpi="360"
-   sodipodi:docname="icon-inactive.svg">
+   sodipodi:docname="icon.svg">
   <defs
      id="defs2987" />
   <sodipodi:namedview
@@ -57,19 +57,16 @@
      inkscape:groupmode="layer">
     <text
        xml:space="preserve"
-       style="font-size:3.28645325000000010px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#999999;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold"
+       style="font-size:3.28645325000000010px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#89a02c;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact Bold"
        x="-6.8715343"
        y="18.04645"
        id="text2993"
        sodipodi:linespacing="125%"
-       transform="matrix(0.71134427,-0.70284374,0.70284374,0.71134427,0,0)"
-       inkscape:export-filename="/home/crimson/develop/workstages/addon/data/icon-inactive-16.png"
-       inkscape:export-xdpi="83.615967"
-       inkscape:export-ydpi="83.615967"><tspan
+       transform="matrix(0.71134427,-0.70284374,0.70284374,0.71134427,0,0)"><tspan
          sodipodi:role="line"
          id="tspan2995"
          x="-6.8715343"
          y="18.04645"
-         style="font-size:14.78904056999999916px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#999999;font-family:TeXGyreHeros;-inkscape-font-specification:TeXGyreHeros Bold">W</tspan></text>
+         style="font-size:14.78904056999999916px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#89a02c;font-family:TeXGyreHeros;-inkscape-font-specification:TeXGyreHeros Bold">W</tspan></text>
   </g>
 </svg>
