@@ -10,8 +10,8 @@ var tabs = require("sdk/tabs");
 var work_state = 0; /* sets the state for the button: 0 for inactive, 1 for
                     * active and 2 for break
                     */
-var timer_length_work= 15 * 1000; // set to a default of 20 minutes
-var timer_length_break= 5 * 1000; // set to a default of 20 minutes
+var timer_length_work= 25 * 60 * 1000; // set to a default of 20 minutes
+var timer_length_break= 5 * 60 * 1000; // set to a default of 20 minutes
 var icon_active_prefix = "icon-active-";
 var icon_inactive_prefix = "icon-";
 var icon_break_prefix = "icon-break-";
