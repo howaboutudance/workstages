@@ -3,9 +3,10 @@
 
 // import libs
 var notificatons = require("sdk/notifications");
-var panel = require("sdk/panel");
 var tabs = require("sdk/tabs");
-var shelf = require("sdk/shelf");
+var Request = require("sdk/request").Request;
+var self = require("sdk/self");
+var panel = require("sdk/panel");
 var timer = require("sdk/timers");
 var { ToggleButton } = require('sdk/ui/button/toggle');
 
@@ -37,11 +38,7 @@ var button = ToggleButton({
 
 //create a panel
 
-var panel = panels.Panel({
-  contentURL: self.data.url("panel.html");
-  onHide: handleHide
-});
-
+// TODO: properly setup code here
 
 /*    Handlers    */
 
@@ -50,9 +47,9 @@ function handleChange(state) {
 
   // if checked show panel
   if(state.checked) {
-    panel.show({
-      position:button
-    });
+    console.log("panel should be shown TODO");// TODO: need to set up to show
+                                              // panel
+  }
 
   // if statements to handle which color to show button 
   if (work_state == 0) {
@@ -65,6 +62,7 @@ function handleChange(state) {
     });
     work_state = 1;
     timer.setInterval(handleStageEnd, timer_length_work);
+    startWorkStage(1);
   } if (work_state == 2) {
     button.state("window", {
       icon : {
@@ -103,4 +101,9 @@ function handleStageEnd() {
 
 function handleHide() {
   button.state('window', {checked:false});
+}
+
+//send request to create work stage/break stage
+function startWorkStage(type) {
+  console.log(Date.now());
 }
