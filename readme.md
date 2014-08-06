@@ -8,7 +8,7 @@ Currently supported platforms:
 * Chrome
 
 Nascent platforms:
-* Firefox
+* Firefox (right now can make a push but can not retrieve)
 
 planned platforms:
 * Android (=> 4.3)
@@ -21,3 +21,13 @@ default currently for using server on local machine setting can be changed withi
 Project requires:
 * Python 2.7 or 3.3
 * Bottle (a python webframework)
+
+api:
+/latest/
+	get: gets information about if stage is currently going, and if so the information and
+			 the guid of such
+	push: starts stage
+  delete: deletes stages thus stopping it
+/dash -> dashboard
+/report/<n> -> returns all stages with a <n> integer limit
+
