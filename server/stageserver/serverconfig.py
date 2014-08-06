@@ -26,8 +26,8 @@ except(IOError):
 	DEBUG = True
 	RELOADER = True
 
-STATIC_FILE_PATH = '/home/crimson/Downloads/develop/workstages/server/static'
-LIB_FILE_PATH = '/home/crimson/Downloads/develop/workstages/lib'
+STATIC_FILE_PATH = 'static'
+LIB_FILE_PATH = '../lib'
 
 if __name__ == '__main__':
 		config.write('server.ini')
